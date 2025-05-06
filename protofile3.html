@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathwika Kalvakuntla | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #6200ea;
+      color: white;
+      text-align: center;
+      padding: 80px 20px; /* Increased padding */
+    }
+    header h1 {
+      font-size: 3.5rem; /* Increased font size */
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.5rem; /* Increased font size */
+      margin-bottom: 30px;
+    }
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+    .contact-icons a {
+      color: white;
+      font-size: 2rem; /* Increased icon size */
+      transition: color 0.3s ease;
+    }
+    .contact-icons a:hover {
+      color: #ffcc00;
+    }
+    .scroll-down {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .scroll-down a {
+      font-size: 2.5rem; /* Increased scroll-down font size */
+      color: white;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    section {
+      padding: 80px 20px; /* Increased padding */
+      max-width: 1100px;
+      margin: auto;
+    }
+    .skills, .projects, .achievements, .learning {
+      background: white;
+      padding: 40px 30px; /* Increased padding */
+      border-radius: 12px; /* Slightly rounded corners */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 50px; /* Increased margin-top */
+    }
+    .skills h2, .projects h2, .achievements h2, .learning h2 {
+      text-align: center;
+      margin-bottom: 30px; /* Increased margin-bottom */
+      font-size: 2.5rem; /* Increased heading font size */
+    }
+    .skills-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Increased grid width */
+      gap: 30px; /* Increased gap */
+    }
+    .skills-category {
+      background: #f9f9f9;
+      padding: 18px;
+      border-radius: 10px;
+    }
+    .skills-category h3 {
+      margin-bottom: 12px;
+      font-size: 1.6rem; /* Increased font size */
+    }
+    .skills-category p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-weight: bold;
+    }
+    .projects-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Increased grid width */
+      gap: 40px; /* Increased gap */
+    }
+    .project {
+      background: #f9f9f9;
+      border-radius: 12px; /* Slightly rounded corners */
+      padding: 25px; /* Increased padding */
+      text-align: center;
+    }
+    .project img {
+      width: 100%;
+      max-height: 250px; /* Increased max height */
+      object-fit: cover;
+      border-radius:20px; /* Slightly rounded corners */
+      margin-bottom:30px; /* Increased bottom margin */
+    }
+    .achievements-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Increased grid width */
+      gap: 30px; /* Increased gap */
+    }
+    .achievement-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .achievement-icon {
+      width: 56px; /* Increased icon size */
+      height: 56px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sathwika Kalvakuntla</h1>
+    <p>Undergraduate at Osmania University | Aspiring Machine Learning</p>
+    <div class="contact-icons">
+      <a href="mailto:sathwika@example.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="scroll-down">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </header>
+  <section id="about" style="display: flex; flex-wrap: nowrap; align-items: flex-start; gap: 50px; max-width: 1100px; margin: auto; padding: 60px 30px; background: white; border-radius: 10px; box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);">
+    <div style="flex: 1; padding-right: 20px;">
+      <h2 style="font-size: 2.8rem;text-align: center;margin-bottom: 25px;">About Me</h2>
+      <p>
+        I'm Kalavakuntla Sathwika, a passionate Computer Science student at Osmania University with a Diploma in CSE from GPW Hyderabad.
+        My journey in tech began early, and I've developed a strong foundation in programming, web development, and software design.
+        I enjoy building real-world projects and solving problems through code.
+        Currently, I'm exploring the fields of Data Science and Machine Learning, aiming to create intelligent solutions that matter.
+        I have a special interest in AI-driven web apps and community-centric platforms.
+      </p>
+      <br>
+      <p>
+        My work reflects creativity, logic, and user-focused design.
+        I’ve built smart applications like OU Learn and AI Chatbot, and participated in national-level hackathons.
+        Achievements include participating at the ASHA Hackathon for building a dynamic AI chatbot, also participating in AI SAWiT Hackathon for LLM model language conversion and completing multiple successful academic and personal projects, and maintaining top performance in both my diploma and undergraduate programs.</p>
+       <p>
+        <br>
+        I have also contributed to open-source projects, demonstrated leadership in team collaborations, and consistently strive for excellence in technical and creative tasks.
+        I'm always excited to learn, collaborate, and grow in the tech world.
+        Let’s connect and build something impactful together!
+      </p>
+    </div>
+    <div style="flex-shrink: 0; text-align: center; margin-top: 30px;">
+      <img src="c:\Users\user\OneDrive\Desktop\sathwika.jpg" alt="Kalavakuntla Sathwika" style="width: 180px; height: 180px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); border: 3px solid #2013d1; margin-top: 40px;">
+
+    </div>    
+  </section>
+  
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="skills-section">
+  
+      <div class="skills-category">
+        <h3>Programming Languages</h3>
+        <p>
+          <img src="https://img.icons8.com/color/48/c-programming.png" alt="C" style="height: 40px;">
+          <img src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="C++" style="height: 40px;">
+          <img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="Java" style="height: 40px;">
+          <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python" style="height: 40px;">
+        </p>
+      </div>
+  
+      <div class="skills-category">
+        <h3>Frontend</h3>
+        <p>
+          <i class="fab fa-html5" style="color: #e34c26; font-size: 2.5rem;"></i>
+          <i class="fab fa-css3-alt" style="color: #264de4; font-size: 2.5rem;"></i>
+          <i class="fab fa-js" style="color: #f7df1e; font-size: 2.5rem;"></i>
+        </p>
+      </div>
+  
+      <div class="skills-category">
+        <h3>Backend & Database</h3>
+        <p>
+          <img src="https://img.icons8.com/ios-filled/50/000000/c-sharp-logo.png" alt="C#" style="height: 40px;">
+          <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL" style="height: 40px;">
+        </p>
+      </div>
+  
+      <div class="skills-category">
+        <h3>Frameworks</h3>
+        <p>
+          <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-color-tal-revivo.png" alt="Django" style="height: 40px;">
+          <img src="https://img.icons8.com/ios-filled/50/000000/flask.png" alt="Flask" style="height: 40px;">
+        </p>
+      </div>
+  
+      <div class="skills-category">
+        <h3>Tools</h3>
+        <p>
+          <img src="https://img.icons8.com/fluent/48/visual-studio-code-2019.png" alt="VS Code" style="height: 40px;">
+          <i class="fab fa-git-alt" style="color: #f1502f; font-size: 2.5rem;"></i>
+        </p>
+      </div>
+  
+    </div>
+  </section>
+  
+    <section class="projects">
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project">
+        <img src="c:\Users\user\OneDrive\Pictures\playwithfun.png" alt="Play With Fun">
+        <h3>Play With Fun</h3>
+        <p>Devolped a gaming website consisting of some simple fun games.Created using platforms like Scratch and Visual Studio, integrating user-friendly
+          interfaces.<br>
+        <strong>Languages:</strong> HTML, CSS</p>
+        <strong>Tools:</strong> Scratch, VS Code
+      </div>
+      <div class="project">
+        <img src="c:\Users\user\OneDrive\Desktop\oulearn.jpg" alt="OU Learn">
+        <h3>OU Learn</h3>
+        <p>Designed a platform that provides personalized recommendations for internships,
+          scholarships, mentorships, and academic resources for osmania students by using webscrapping to dynamically fetch data.<br>
+        <strong>Languages:</strong> HTML, CSS, JavaScript, Python</p>
+        <strong>Tools:</strong>VS Code
+      </div>
+      <div class="project">
+        <img src="c:\Users\user\OneDrive\Desktop\chatbot.jpg" alt="AI Chatbot">
+        <h3>AI Chatbot</h3>
+        <p>ASHA is a Python Flask-based chatbot helping women find jobs, events, and mentorships. It uses keyword-based logic and real-time data fetching.<br>
+        <strong>Languages:</strong> HTML, CSS, Python, JSON</p>
+      </div>
+    </div>
+  </section>
+
+  <<section class="achievements">
+    <h2>My Achievements</h2>
+    <div class="achievements-container">
+      
+      <div class="achievement-item">
+        <img src="https://img.icons8.com/ios-filled/50/trophy.png" alt="ECET Rank Icon" class="achievement-icon" style="filter: sepia(1) hue-rotate(10deg) saturate(10);">
+        <h3>38<sup>th</sup> Rank in ECET</h3>
+        <p>Secured 38<sup>th</sup> rank in Telangana ECET Examination (2024)</p>
+      </div>
+      
+      <div class="achievement-item">
+        <img src="https://img.icons8.com/color/96/language.png" alt="LLM Translation Icon" class="achievement-icon">
+        <h3>LLM-based English to Telugu Translation</h3>
+        <p>Participated in SAWiT AI Hackathon building a language conversion pipeline using Large Language Models (LLMs) to translate English to Telugu, focusing on local dialect accuracy.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="learning">
+    <h2>What I'm Learning Now</h2>
+    <div style="display: flex; justify-content: center;">
+      <ul style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+        <li>Advanced Machine Learning algorithms</li>
+        <li>Prompt engineering for effective AI chatbot and NLP solutions</li>
+        <li>Building AI-powered web apps with Django and RESTful APIs</li>
+        <li>Hands-on learning through hackathons and real-world AI projects</li>
+      </ul>
+    </div>
+  </section>
+  <section class="contact" style="text-align: center; padding: 80px 20px; background: white; border-radius: 12px; max-width: 1000px; margin: 60px auto; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+    <h2 style="font-size: 2.8rem; margin-bottom: 25px;">Let's Contact</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 30px;">Feel free to reach out via email or follow me on GitHub and LinkedIn!</p>
+    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 50px;">
+      <a href="mailto:sathwikasample@gmail.com" target="_blank" style="font-size: 3rem; color: #EA4335;">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/sathwikakalvakuntla" target="_blank" style="font-size: 3rem; color: #000;">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="http://linkedin.com/in/kalvakuntla-sathwika" target="_blank" style="font-size: 3rem; color: #0077b5;">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+  
+  
+  <!-- Remaining sections (skills, projects, achievements, etc.) -->
+  
+</body>
+</html>
